@@ -1,0 +1,303 @@
+ a{text-decoration: none;color:#333333;font-size:28px;line-height:42px;}
+.main {
+	margin: 0px auto; width: 750px; height: 100%;
+}
+.indexUl {
+	width: 100%; overflow: hidden;
+}
+.indexUl li {
+	width: 250px; height: 226px; text-align: center; border-right-color: rgb(214, 214, 214); border-bottom-color: rgb(214, 214, 214); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.indexUl li img {
+	margin-top: 61px;
+}
+.indexUl li.end {
+	border-right-color: currentColor !important; border-right-width: medium !important; border-right-style: none !important;
+}
+.ml1 {
+	margin-left: 53px;
+}
+.ml2 {
+	margin-left: 65px;
+}
+.joinin {
+	margin: 57px auto 0px; width: 590px;
+}
+.about .w1 {
+	width: 503px;
+}
+.about .w2 {
+	width: 247px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.menuIcon {
+	top: 0px; right: 0px; position: absolute; z-index: 996; cursor: pointer;
+	 
+}
+.menuIcon2 {
+	top: 0px; right: 0px; position: absolute; z-index: 996; cursor: pointer;
+}
+.btn-nav {
+	background: 0px 0px; padding: 10px 38px; border: currentColor; transition:0.5s; border-image: none; z-index: 99999; cursor: pointer; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease;
+}
+.btn-nav:focus {
+	outline: 0px;
+}
+.icon-bar {
+	margin: 22px 0px;
+	width: 50px;
+	height: 4px;
+	display: block;
+	background-color: #000;
+}
+.btn-nav:hover .icon-bar {
+	transition:0.5s; background-color: rgb(0, 0, 0); -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease;
+}
+.animated2 {
+	margin: 0px auto; display: block;
+}
+.animated2:focus .icon-bar {
+	background-color: rgb(0, 0, 0);
+}
+.animated2:hover .icon-bar {
+	background-color: rgb(0, 0, 0);
+}
+.animated2:focus {
+	z-index: 9999; cursor: pointer;
+}
+.middle {
+	width: 36px;
+}
+.icon-bar {
+	transition:0.5s; z-index: 999999; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease;
+}
+.animated2 .icon-bar {
+	z-index: 999999; background-color: rgb(0, 0, 0);
+}
+.animated2 .top {
+	transform: translateY(12px) rotateZ(45deg); -webkit-transform: translateY(12px) rotateZ(45deg); -moz-transform: translateY(12px) rotateZ(45deg); -o-transform: translateY(12px) rotateZ(45deg);
+}
+.animated2 .bottom {
+	transform: translateY(-16px) rotateZ(-45deg); -webkit-transform: translateY(-16px) rotateZ(-45deg); -moz-transform: translateY(-16px) rotateZ(-45deg); -o-transform: translateY(-16px) rotateZ(-45deg);
+}
+.animated2 .middle {
+	width: 0px;
+}
+.menuIcon {
+	top: 0px; right: 0px; position: absolute; z-index: 996; cursor: pointer;
+}
+.menuIcon2 {
+	top: 0px; right: 0px; position: absolute; z-index: 996; cursor: pointer;
+}
+.menuIcon2 {
+	background: url("icon_05.png")/*tpa=http://www.founderinternational.com/wx/images/icon_05.png*/ no-repeat center / 18px; width: 63px; height: 46px; display: none;
+}
+header {
+	transition:background 0.4s ease-out 0.5s;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	z-index: 1000;
+	-webkit-transition: background 0.4s ease-out 0.5s;
+background-color:#fff;
+}
+header .logo {
+	background: url("logo.png")/*tpa=http://www.founderinternational.com/wx/images/logo.png*/ no-repeat center / 200px;
+	left: 0px;
+	top: 0px;
+	width: 280px;
+	height: 100px;
+	position: absolute; 
+	display: block;	
+}
+header .logo a {
+	width: 100%; height: 100%; display: block;
+ 
+}
+header.showMenu {
+	background: none; transition:background ease-out; position: relative; -webkit-transition: background 0s ease-out;
+}
+header.showMenu .logo {
+	background-image: url("logo2.png")/*tpa=http://www.founderinternational.com/wx/images/logo2.png*/;
+}
+header.showMenu .animated2 .icon-bar {
+	background: rgb(0, 0, 0);
+}
+.menuMain {
+	background: rgb(47, 47, 47); margin: 0px; padding: 0px; left: 0px; top: 100px; width: 100%; height: 100%; overflow: hidden; display: none; position: absolute; z-index: 999; -ms-overflow-y: scroll;
+}
+.menuBox {
+	margin: 10px 0px 40px; padding: 0px 40px; height: 100%; overflow: hidden; position: relative; -ms-overflow-y: scroll;
+}
+.menuBox li {
+	padding: 0px; position: relative;
+}
+.menuBox li > a {
+	background: url("icon_01.png")/*tpa=http://www.founderinternational.com/wx/images/icon_01.png*/ no-repeat 98% / 24px; height: 96px; color: rgba(255, 255, 255, 0.8); line-height: 96px; font-size: 28px; display: block; opacity: 0.8;
+}
+.menuBox li.on > a {
+	background-image: url("icon_02-1.png")/*tpa=http://www.founderinternational.com/wx/images/icon_02.png*/;
+}
+.menuBox li.link > a {
+	background-image: url("icon_03.png")/*tpa=http://www.founderinternational.com/wx/images/icon_03.png*/;
+}
+.menuBox li.searchBtn > a {
+	background: url("icon_04.png")/*tpa=http://www.founderinternational.com/wx/images/icon_04.png*/ no-repeat left / 24px; text-indent: 36px;
+}
+.menuBox .linkBtn {
+	text-align: center; padding-top: 70px;
+}
+.menuBox .linkBtn a {
+	margin: 0px 30px; padding: 0px 60px; border-radius: 10px; height: 84px; color: rgba(255, 255, 255, 0.5); line-height: 84px; font-size: 28px; display: inline-block; position: relative;
+}
+.menuBox .linkBtn a::after {
+	border-radius: 10px;
+}
+.proList {
+	overflow: hidden; display: none;
+}
+.serList {
+	overflow: hidden; display: none;
+}
+.proList a {
+	background-position: 30px; width: 50%; height: 84px; color: rgba(255, 255, 255, 0.6); line-height: 84px; text-indent: 120px; font-size: 26px; float: left; display: inline-block; position: relative; background-repeat: no-repeat; background-size: 56px;
+}
+.serList a {
+	background-position: 30px; width: 50%; height: 84px; color: rgba(255, 255, 255, 0.6); line-height: 84px; text-indent: 120px; font-size: 26px; float: left; display: inline-block; position: relative; background-repeat: no-repeat; background-size: 56px;
+}
+.proList a.n1 {
+	background-image: url("01.png")/*tpa=http://www.founderinternational.com/wx/images/01.png*/;
+}
+.proList a.n2 {
+	background-image: url("02.png")/*tpa=http://www.founderinternational.com/wx/images/02.png*/;
+}
+.proList a.n3 {
+	background-image: url("03.png")/*tpa=http://www.founderinternational.com/wx/images/03.png*/;
+}
+.proList a.n4 {
+	background-image: url("04.png")/*tpa=http://www.founderinternational.com/wx/images/04.png*/;
+}
+.proList a.n5 {
+	background-image: url("05.png")/*tpa=http://www.founderinternational.com/wx/images/05.png*/;
+}
+.proList a.n6 {
+	background-image: url("06.png")/*tpa=http://www.founderinternational.com/wx/images/06.png*/;
+}
+.proList a.n7 {
+	background-image: url("07.png")/*tpa=http://www.founderinternational.com/wx/images/07.png*/;
+}
+.proList a.n8 {
+	background-image: url("08.png")/*tpa=http://www.founderinternational.com/wx/images/08.png*/;
+}
+.proList a.n9 {
+	background-image: url("09.png")/*tpa=http://www.founderinternational.com/wx/images/09.png*/;
+}
+.serList a {
+	width: 100%; text-indent: 40px;
+}
+.menuBox .preBox ul {
+	padding: 0px 40px;
+}
+.menuBox .preBox {
+	transition:transform 0.35s linear; left: 0px; top: 0px; width: 100%; position: absolute; transform: translateY(0px); -webkit-transform: translateY(0px);
+}
+.menuBox .nextBox .other {
+	display: none;
+}
+.menuBox .nextBox .other .tit {
+	padding: 40px 0px 20px; color: rgba(255, 255, 255, 0.3); font-size: 24px;
+}
+.menuBox .nextBox .other a {
+	width: 100%; height: 80px; color: rgba(255, 255, 255, 0.64); line-height: 80px; font-size: 28px; display: inline-block; position: relative;
+}
+.searchForm {
+	background: url("icon_04.png")/*tpa=http://www.founderinternational.com/wx/images/icon_04.png*/ no-repeat left / 28px; left: 200%; height: 96px; color: rgba(255, 255, 255, 0.8); line-height: 96px; text-indent: 36px; font-size: 28px; position: relative; opacity: 0;
+}
+.searchForm .searchBtn {
+	left: 0px; top: 0px; width: 20px; height: 48px; display: block; position: absolute;
+}
+.searchForm .searchBtn2 {
+	left: 0px; top: 0px; width: 20px; height: 48px; display: block; position: absolute;
+}
+.searchForm .searchBtn2 {
+	border-radius: 10px; border: 1px solid rgb(255, 255, 255); border-image: none; left: auto; top: 16px; width: 136px; height: 48px; text-align: center; right: 0px; color: rgb(255, 255, 255); line-height: 48px; text-indent: 0px; display: inline-block; opacity: 0.5;
+}
+.searchForm input {
+	background: none; border: 0px currentColor; border-image: none; width: 90%; height: 40px; color: rgba(255, 255, 255, 0.64); line-height: 40px; font-size: 24px; margin-top: 28px;
+}
+.menuSearch .preBox {
+	transform: translateY(-288px); -webkit-transform: translateY(-288px);
+}
+.menuSearch .searchForm {
+	left: 0px;
+}
+.searchHide .searchForm {
+	opacity: 1;
+}
+.showMain .searchHide .searchBtn {
+	opacity: 0;
+}
+.menuBox li {
+	transition:opacity 0.35s ease-out, transform 0.35s ease-out, -webkit-transform 0.35s ease-out; opacity: 0; pointer-events: none; transform: scale(1.1) translateY(-24px); -webkit-transition: opacity 0.35s ease-out, -webkit-transform 0.35s ease-out; -webkit-transform: scale(1.1) translateY(-24px);
+}
+.linkBtn {
+	transition:opacity 0.35s ease-out, transform 0.35s ease-out, -webkit-transform 0.35s ease-out; opacity: 0; pointer-events: none; transform: scale(1.1) translateY(-24px); -webkit-transition: opacity 0.35s ease-out, -webkit-transform 0.35s ease-out; -webkit-transform: scale(1.1) translateY(-24px);
+}
+.showMain .menuBox li {
+	opacity: 1; pointer-events: auto; transform: none; -webkit-transform: none;
+}
+.showMain .linkBtn {
+	opacity: 1; pointer-events: auto; transform: none; -webkit-transform: none;
+}
+.showMain .menuBox li:nth-child(2) {
+	transition-delay: 100ms, 100ms; -webkit-transition-delay: 100ms, 100ms;
+}
+.showMain .menuBox li:nth-child(3) {
+	transition-delay: 180ms, 180ms; -webkit-transition-delay: 180ms, 180ms;
+}
+.showMain .menuBox li:nth-child(4) {
+	transition-delay: 260ms, 260ms; -webkit-transition-delay: 260ms, 260ms;
+}
+.showMain .linkBtn {
+	transition-delay: 340ms, 340ms; -webkit-transition-delay: 340ms, 340ms;
+}
+.bBor:after {
+	bottom: 0px;
+}
+.bBor:after {
+	background: rgba(220, 220, 220, 0.5); left: 0px; height: 1px; right: 0px; position: absolute; content: "";
+}
+.tBor:before {
+	background: rgba(220, 220, 220, 0.5); left: 0px; height: 1px; right: 0px; position: absolute; content: "";
+}
+.menuBox .linkBtn a:after {
+	border-radius: 10px;
+}
+.trblBor:after {
+	border: 1px solid rgba(220, 220, 220, 0.5); border-image: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; content: ""; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; point-events: none;
+}
+.slideBox {
+	position: relative;
+}
+.pagination {
+	left: 0px; width: 100%; text-align: center; bottom: 20px; position: absolute; z-index: 99;
+}
+.swiper-pagination-bullet-active {
+	background: rgb(188, 152, 130) !important;
+}
+.swiper-pagination-bullet {
+	margin-right: 6px;
+}
+.swiper-pagination-bullet {
+	background: rgba(0, 0, 0, 0.2); border: 2px solid rgb(255, 255, 255); border-image: none; opacity: 1;
+}
+.searchForm p {
+	margin: 0px;
+}
